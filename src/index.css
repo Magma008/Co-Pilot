@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bd-full-rounded {
+  border-radius: 50%;
+}
